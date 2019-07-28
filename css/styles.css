@@ -1,15 +1,13 @@
 body{
-    
+    background-color: rgba(143, 82, 78,0.9);
     margin: 0%;
     color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-    
+
+
 }
 .showcase::after{
-    
-
-    
+  
     content: "";
     height: 100vh;
     width: 100%;
@@ -25,8 +23,8 @@ body{
 .showcase:hover::after{
     filter: blur(0px);
     -webkit-filter: blur(0px);
-    
-    
+
+
 
 }
 .content{
@@ -34,12 +32,21 @@ body{
     z-index: 1;
     top: 3%;
     left: 50%;
-    margin-top:105px; 
+    margin-top:105px;
     margin-left: -145px;
     width: 300px;
     height: 350px;
     text-align: center;
     transition: all 1000ms;
+}
+.content .title{
+    font-size: 2.8rem;
+    margin-top: 1rem;
+    color: #000;
+
+}
+.content .text{
+    margin-top: 1rem;
 }
 body {
     display: flex;
@@ -49,3 +56,63 @@ body {
     height: 100vh;
     background: #f39c12;
   }
+  h1 {
+    margin: 0 0 0.25em;
+  }
+  /* Reset Select */
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background: #2c3e50;
+    background-image: none;
+  }
+  /* Remove IE arrow */
+  select::-ms-expand {
+    display: none;
+  }
+  /* Custom Select */
+  .select {
+    position: relative;
+    display: flex;
+    width: 15em;
+    height: 3em;
+    line-height: 3;
+    background: #2c3e50;
+    overflow: hidden;
+    border-radius: .25em;
+  }
+  select {
+    flex: 1;
+    padding: 0 .5em;
+    color: #fff;
+    cursor: pointer;
+  }
+  /* Arrow */
+  .select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #34495e;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+  }
+  /* Transition */
+  .select:hover::after {
+    color: #f39c12;
+  }
+.container{
+  padding-right: 50rem;
+}
+.container h2{
+  float: left;
+}
