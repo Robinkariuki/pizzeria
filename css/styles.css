@@ -29,3 +29,23 @@ body{
     
 
 }
+.content{
+    position: absolute;
+    z-index: 1;
+    top: 3%;
+    left: 50%;
+    margin-top:105px; 
+    margin-left: -145px;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    transition: all 1000ms;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f39c12;
+  }
