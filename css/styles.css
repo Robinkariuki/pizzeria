@@ -7,11 +7,11 @@ body{
 
 }
 .showcase::after{
-  
+
     content: "";
     height: 100vh;
     width: 100%;
-    background-image: url(/images/background.jpg);
+    background-image: url("../images/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -112,4 +112,18 @@ body {
   }
 .container{
   padding-right: 50rem;
+}
+.button {
+  background-color: #E3D65C;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.order{
+  text-align: center;
 }
