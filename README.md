@@ -1,5 +1,5 @@
-# {pizza web application}
-#### {The application allows you to order pizza online and also get delivery}
+# pizza web application
+#### The application allows you to order pizza online and also get delivery
 
 
 ## Setup/Installation Requirements
@@ -7,7 +7,7 @@
 * A device that can access
 * The url to the site
 
-##LIVE-LINK
+LIVE-LINK
 https://robinkariuki.github.io/pizzeria/
 
 ## Known Bugs
